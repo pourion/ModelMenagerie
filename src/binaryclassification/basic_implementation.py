@@ -86,7 +86,7 @@ for epoch in range(epochs):
     losses.append(loss.detach().numpy().item())
 
 
-save_path = os.path.join(cwd, "binary_classification.png")
+save_path = os.path.join(cwd, "results/binary_classification.png")
 plt.figure(figsize=(7, 7))
 plt.plot(range(epochs), losses)
 plt.xlabel("epochs", fontsize=20)
@@ -174,7 +174,7 @@ for threshold in thresholds:
     TPRs.append(metrics["TPR"])
     FPRs.append(metrics["FPR"])
 
-save_path = os.path.join(cwd, "ROC.png")
+save_path = os.path.join(cwd, "results/ROC.png")
 plt.figure(figsize=(7, 7))
 plt.scatter(FPRs, TPRs)
 plt.xlabel("FPR", fontsize=20)

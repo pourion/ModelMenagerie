@@ -63,7 +63,7 @@ def show_images(images, title=""):
     fig.suptitle(title, fontsize=30)
 
     # Showing the figure
-    save_path = os.path.join(cwd, f'dataset_{title}.png')
+    save_path = os.path.join(cwd, f'results/dataset_{title}.png')
     plt.savefig(save_path)
     
 # Shows the first batch of images
