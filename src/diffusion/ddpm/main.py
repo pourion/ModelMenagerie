@@ -1,3 +1,6 @@
+import os
+cwd = os.path.dirname(__file__)
+
 # Import of libraries
 import random
 import imageio
@@ -60,7 +63,8 @@ def show_images(images, title=""):
     fig.suptitle(title, fontsize=30)
 
     # Showing the figure
-    plt.savefig(f'dataset_{title}.png')
+    save_path = os.path.join(cwd, f'dataset_{title}.png')
+    plt.savefig(save_path)
     
 # Shows the first batch of images
 def show_first_batch(loader):
