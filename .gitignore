@@ -170,3 +170,8 @@ cython_debug/
 # *.gif
 datasets
 *.pt
+
+.python_history
+.bash_history
+.nv
+.notebook

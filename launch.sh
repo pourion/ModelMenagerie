@@ -61,8 +61,8 @@ EOF
     exit
 }
 
-CONT_NAME=${CONT_NAME:=diffusion}
-IMAGE_NAME=${IMAGE_NAME:=docker.io/pourion/diffusion:latest}
+CONT_NAME=${CONT_NAME:=modelmenagerie}
+IMAGE_NAME=${IMAGE_NAME:=docker.io/pourion/modelmenagerie:latest}
 REGISTRY_USER=${REGISTRY_USER:='$oauthtoken'}
 REGISTRY=${REGISTRY:=NotSpecified}
 REGISTRY_ACCESS_TOKEN=${REGISTRY_ACCESS_TOKEN:=NotSpecified}

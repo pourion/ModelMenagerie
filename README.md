@@ -1,5 +1,5 @@
 <h1 align='center'>Model Menagerie</h1>
-<h2 align='center'>Efficient JAX & PyTorch Implementations for Cutting-Edge Papers.</h2>
+<h2 align='center'>Efficient JAX & PyTorch Implementations for DL Papers.</h2>
 
 
-inspired by https://github.com/BrianPulfer/PapersReimplementations, aiming to provide efficient pytorch and jax implementations that are scalable.
+Inspired by https://github.com/BrianPulfer/PapersReimplementations, a model repository to store my learnings as I figure out different architectures and implement them along the way.
